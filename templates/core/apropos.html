@@ -1,0 +1,220 @@
+{% extends 'base.html' %} {% load static %} {% block title %}Notre École —
+Collège Moderne Excellence{% endblock %} {% block content %}
+
+<section class="page-header">
+    <div class="page-header-bg">
+        <div class="page-header-pattern"></div>
+    </div>
+    <div class="container">
+        <div class="page-header-content" data-aos="fade-up">
+            <nav class="breadcrumb">
+                <a href="{% url 'home' %}">Accueil</a>
+                <i class="fas fa-chevron-right"></i>
+                <span>Notre École</span>
+            </nav>
+            <h1>Découvrez <span class="text-gradient">Excellence</span></h1>
+            <p>
+                40 ans d'engagement pour l'éducation et l'épanouissement des
+                jeunes
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- History -->
+<section class="about-history">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-image" data-aos="fade-right">
+                <div class="about-image-main">
+                    <img
+                        src="https://images.unsplash.com/photo-1562774053-701939374585?w=500&h=600&fit=crop"
+                        alt="Notre école"
+                    />
+                </div>
+                <div class="about-image-float">
+                    <img
+                        src="{% static 'images/Lofi - Anime Girl2.png' %}"
+                        alt="Élèves heureux à l'école"
+                    />
+                </div>
+                <div class="experience-badge">
+                    <span class="exp-number">40+</span>
+                    <span class="exp-text">Années d'Excellence</span>
+                </div>
+            </div>
+
+            <div class="about-content" data-aos="fade-left">
+                <span class="section-tag">Notre Histoire</span>
+                <h2>
+                    Une École Construite sur des
+                    <span class="highlight">Valeurs Solides</span>
+                </h2>
+                <p>
+                    Fondée en 1985, le Collège Moderne Excellence est né d'une
+                    vision audacieuse : créer un établissement où l'excellence
+                    académique se marie harmonieusement avec le développement
+                    personnel de chaque élève.
+                </p>
+                <p>
+                    Au fil des décennies, nous avons formé des milliers de
+                    jeunes qui sont devenus des leaders dans leurs domaines
+                    respectifs. Notre approche pédagogique unique allie
+                    tradition et innovation.
+                </p>
+
+                <div class="about-values">
+                    <div class="value-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Excellence académique</span>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Innovation pédagogique</span>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Épanouissement personnel</span>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Ouverture sur le monde</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Mission & Vision -->
+<section class="mission-vision">
+    <div class="container">
+        <div class="mv-grid">
+            <div class="mv-card" data-aos="fade-up" data-aos-delay="0">
+                <div class="mv-icon">
+                    <i class="fas fa-bullseye"></i>
+                </div>
+                <h3>Notre Mission</h3>
+                <p>
+                    Offrir une éducation de qualité exceptionnelle qui développe
+                    le potentiel intellectuel, créatif et social de chaque
+                    élève, tout en inculquant des valeurs d'intégrité, de
+                    respect et de responsabilité.
+                </p>
+            </div>
+
+            <div class="mv-card" data-aos="fade-up" data-aos-delay="150">
+                <div class="mv-icon icon-vision">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <h3>Notre Vision</h3>
+                <p>
+                    Devenir la référence en éducation secondaire, reconnue pour
+                    former des citoyens du monde compétents, créatifs et
+                    engagés, capables de relever les défis de demain avec
+                    confiance et humanité.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats -->
+<section class="stats-section">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-box" data-aos="fade-up" data-aos-delay="0">
+                <i class="fas fa-user-graduate"></i>
+                <span class="stat-number" data-count="2500">0</span>
+                <span class="stat-label">Élèves inscrits</span>
+            </div>
+            <div class="stat-box" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <span class="stat-number" data-count="150">0</span>
+                <span class="stat-label">Enseignants qualifiés</span>
+            </div>
+            <div class="stat-box" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-percentage"></i>
+                <span class="stat-number" data-count="98">0</span>
+                <span class="stat-label">% Taux de réussite</span>
+            </div>
+            <div class="stat-box" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-award"></i>
+                <span class="stat-number" data-count="45">0</span>
+                <span class="stat-label">Prix et distinctions</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team -->
+<section class="team-section">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-tag">Notre Équipe</span>
+            <h2 class="section-title">
+                Des Professionnels <span class="highlight">Passionnés</span>
+            </h2>
+        </div>
+
+        <div class="team-grid">
+            <div class="team-card" data-aos="fade-up" data-aos-delay="0">
+                <div class="team-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300&h=350&fit=crop"
+                        alt="Directeur"
+                    />
+                </div>
+                <div class="team-info">
+                    <h4>Dr. Pierre Lambert</h4>
+                    <span class="team-role">Directeur</span>
+                    <p>30 ans d'expérience en éducation</p>
+                </div>
+            </div>
+
+            <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="team-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&h=350&fit=crop"
+                        alt="Proviseur adjoint"
+                    />
+                </div>
+                <div class="team-info">
+                    <h4>Mme Claire Fontaine</h4>
+                    <span class="team-role">Proviseur Adjointe</span>
+                    <p>Spécialiste en sciences</p>
+                </div>
+            </div>
+
+            <div class="team-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="team-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=350&fit=crop"
+                        alt="CPE"
+                    />
+                </div>
+                <div class="team-info">
+                    <h4>M. Robert Moreau</h4>
+                    <span class="team-role">CPE</span>
+                    <p>Conseiller principal d'éducation</p>
+                </div>
+            </div>
+
+            <div class="team-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="team-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&h=350&fit=crop"
+                        alt="Responsable pédagogique"
+                    />
+                </div>
+                <div class="team-info">
+                    <h4>Mme Anne Richard</h4>
+                    <span class="team-role">Responsable Pédagogique</span>
+                    <p>Expertise en langues</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
