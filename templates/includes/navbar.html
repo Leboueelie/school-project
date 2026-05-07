@@ -54,9 +54,14 @@
                 </a>
             </li>
             <li class="nav-item nav-cta">
-                <a href="{% url 'contact' %}" class="btn btn-nav">
-                    <i class="fas fa-calendar-check"></i>
-                    <span>Inscription</span>
+                <a
+                    href="{% url 'admin:index' %}"
+                    class="btn btn-nav admin-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fas fa-lock"></i>
+                    <span>Administration</span>
                 </a>
             </li>
         </ul>
